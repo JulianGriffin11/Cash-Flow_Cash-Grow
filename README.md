@@ -1,4 +1,4 @@
-# 📈 Stock Price vs Fundamentals 📈
+# 📈 Cash Flow - Stock Price vs Fundamentals 📈
 
 ## 👋 Welcome  
 This is my **SQL analysis** project where hype gets stripped away and only numbers get to talk.
@@ -67,14 +67,13 @@ Key variables analyzed:
 **Method:**  
 - Set base year = 100  
 - Index stock and all fundamentals  
-- Compare slopes and turning points  
+- Compare the movements  
+
+<img src="Plots/Indexed_Growth.png" alt="Indexed_Growth.png" width="50%"/>
 
 **Result:**  
-> FCF doesn’t just match the destination—it matches the *path*.  
-> It explains both long-term direction and medium-term re-rating cycles.
-
-📊 *Indexed Growth Output (Query 2)*  
-See: `Query_2_Output.csv` for full indexed series.
+> FCF also explains both long-term direction and medium-term price movements.  
+> Narratives determine the short term movement of Amazon.
 
 ---
 
@@ -82,41 +81,34 @@ See: `Query_2_Output.csv` for full indexed series.
 **Question:** Does this pattern hold across other firms?  
 
 **Method:**  
-- Union multiple company datasets  
+- Join multiple company datasets  
 - Run same CAGR logic per ticker  
-- Compare metric-to-stock alignment  
+- Compare price to free cash flow  
+
+<img src="Plots/FCF_vs_Other_Companies.png" alt="FCF_vs_Other_Companies.png" width="50%"/>
 
 **Result:**  
 - Long-term: **FCF dominates across companies**  
 - Mid-term:  
-  - Mature firms → FCF leads stock  
-  - Story-driven firms → Stock runs ahead of FCF
-
-📄 *CAGR Table Output (Query 3)*  
-See: `Query_3_Output.csv` for company-by-company results.
+  - Mature companies → FCF leads stock  
+  - Narrative companies → Stock runs ahead of FCF
 
 ---
 
 ## 🧠 Key Findings  
-1. Stock prices ultimately obey **Free Cash Flow** (in the long term), not narratives.  
+1. Stock prices ultimately follow **Free Cash Flow** (in the long term), not narratives.  
 2. Revenue and earnings matter but they don’t drive valuation alone.  
-3. Market timing depends on maturity.
+3. Short term market timing also depends on maturity.
 
 ---
 
 ## 🎓 Conclusion  
 
-This chapter proves something uncomfortable:  
-Markets may flirt with stories, but they marry cash.  
-
-Free Cash Flow isn’t glamorous. It doesn’t trend on Twitter. It doesn’t sound visionary.  
-But over time, it drags stock prices to where they deserve to be—whether investors like it or not.
-
-Hype is a spark.  
-Revenue is fuel.  
-**FCF is gravity.**
+This chapter shows that while markets often respond to stories and narratives, long-term stock prices ultimately follow cash generation. Hype can push prices ahead of fundamentals, but in the long run, stories fade, sentiment shifts, but cash remains the final judge.
 
 ---
+
+I hope you enjoyed this one!
 
 Sincerely,  
 Julian
