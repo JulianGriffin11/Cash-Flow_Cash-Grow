@@ -1,4 +1,4 @@
-# 📈 Cash Flow - Cash Grow 📈
+# 📈 Chapter 1: SQL — Stock Price vs Fundamentals 📈
 
 ## 👋 Welcome  
 Welcome to Chapter 1. This is the **SQL analysis engine** of the project—where hype gets stripped away and only numbers get to talk.
@@ -57,6 +57,9 @@ Key variables analyzed:
 **Result:**  
 > **FCF is the anchor metric explaining Amazon’s long-term stock trajectory.**
 
+📉 *CAGR Comparison Across Metrics*  
+<img src="./CAGR_vs_companies.png" alt="CAGR Comparison Across Companies" width="75%"/>
+
 ---
 
 ### 2. Indexed Growth — Shape of the Journey  
@@ -70,6 +73,9 @@ Key variables analyzed:
 **Result:**  
 > FCF doesn’t just match the destination—it matches the *path*.  
 > It explains both long-term direction and medium-term re-rating cycles.
+
+📊 *Indexed Growth Output (Query 2)*  
+See: `Query_2_Output.csv` for full indexed series.
 
 ---
 
@@ -86,6 +92,9 @@ Key variables analyzed:
 - Mid-term:  
   - Mature firms → FCF leads stock  
   - Story-driven firms → Stock runs ahead of FCF
+
+📄 *CAGR Table Output (Query 3)*  
+See: `Query_3_Output.csv` for company-by-company results.
 
 ---
 
@@ -115,8 +124,13 @@ Revenue is fuel.
 - `1_fundamental_analysis.sql` — Long-term CAGR comparison  
 - `2_movement_vs_fundamentals.sql` — Indexed growth analysis  
 - `3_stock_market_fundamentals.sql` — Cross-company validation  
+- `Query_1_Output.csv` — CAGR results  
+- `Query_2_Output.csv` — Indexed series  
+- `Query_3_Output.csv` — Multi-company CAGR  
+- `CAGR_vs_companies.png` — Visual comparison
 
 ---
 
 Sincerely,  
 Julian
+
