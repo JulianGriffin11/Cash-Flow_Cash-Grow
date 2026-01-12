@@ -98,9 +98,9 @@ See: `Query_3_Output.csv` for company-by-company results.
 ---
 
 ## 🧠 Key Findings  
-1. Stock prices ultimately obey **Free Cash Flow**, not narratives.  
-2. Revenue and earnings matter—but they don’t drive valuation alone.  
-3. Market timing depends on maturity: hype first, cash later—or cash first, hype never.
+1. Stock prices ultimately obey **Free Cash Flow** (in the long term), not narratives.  
+2. Revenue and earnings matter but they don’t drive valuation alone.  
+3. Market timing depends on maturity.
 
 ---
 
@@ -115,18 +115,6 @@ But over time, it drags stock prices to where they deserve to be—whether inves
 Hype is a spark.  
 Revenue is fuel.  
 **FCF is gravity.**
-
----
-
-## 📂 Files  
-
-- `1_fundamental_analysis.sql` — Long-term CAGR comparison  
-- `2_movement_vs_fundamentals.sql` — Indexed growth analysis  
-- `3_stock_market_fundamentals.sql` — Cross-company validation  
-- `Query_1_Output.csv` — CAGR results  
-- `Query_2_Output.csv` — Indexed series  
-- `Query_3_Output.csv` — Multi-company CAGR  
-- `CAGR_vs_companies.png` — Visual comparison
 
 ---
 
